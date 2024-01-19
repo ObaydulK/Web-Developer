@@ -17,7 +17,7 @@ const Service = () => {
                             <div className='text-3xl text-blue-500'><FaReact /> </div>
                             <div>
                                 <h1 className="uppercase font-bold text-3xl" >Unlimited Features</h1>
-                                <p className='opacity-40'>Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, <br /> omnis. ipsum dolor sit amet consectetur adipisicing elit. Non, assumenda.</p>
+                                <p className='opacity-40'>Any work that will be done from me. They will be done very nicely. And multiple options will be kept while doing these tasks. So that if you don't like a thumbnail you can use another one just in that case you click on that thumbnail then automatically new Dhamrail will be connected.</p>
                             </div>
                         </div>
                         <div className='  flex gap-5 items-center py-10'>

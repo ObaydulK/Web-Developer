@@ -1,117 +1,22 @@
-
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 const About = () => {
     return (
         <div>
-            <div className="hero min-h-screen bg-base-200">
-                <div className="hero-content flex-col lg:flex-row sm:flex-col">
-                    <div className="flex-1">
-                        <img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" className="max-w-sm rounded-lg shadow-2xl" />
-                    </div>
-                    <div className="flex-1">
-                        <h1 className="text-3xl text-emerald-500 font-bold">Introduction</h1>
-                        <h1 className="text-5xl py-5 font-bold">About Me</h1>
-                        <p className="  ">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <div className="py-6">
-                            <h1 className="text-5xl font-bold">Education</h1>
-                            <div className=" flex flex-row gap-5 items-center   py-5">
-                                <h1 className="text-emerald-400 text-2xl font-bold">2023 to 2027</h1>
-                                <p>------</p>
-                                <div className="font-bold">
-                                    <p className="text-2xl">BSc in computer Science</p>
-                                    <p className=""> World University of Bangladeshi, Uttara</p>
-                                    <p className="text-2xl">0.00 Out of 4</p>
-                                    <progress className="progress w-full" value="20" max="100"></progress>
-                                </div>
-                            </div>
-                            <div className=" flex flex-row gap-5 items-center  py-5">
-                                <h1 className="text-emerald-400 text-2xl font-bold">2018 to 2022</h1>
-                                <p>------</p>
-                                <div className="font-bold">
-                                    <p className="text-2xl">Diploma in computer Science</p>
-                                    <p>Shariatpur polytechnic institute, Shariatpur</p>
-                                    <p className="text-2xl"> 3.50 out of 4</p>
-                                    <progress className="progress w-full" value="100" max="100"></progress>
-                                </div>
-                            </div>
-                            <div className=" flex flex-row gap-5 items-center  py-5">
-                                <h1 className="text-emerald-400 text-2xl font-bold">2016 to 2018</h1>
-                                <p>------</p>
-                                <div className="font-bold">
-                                    <p className="text-2xl">SSC in Electrical Engineering</p>
-                                    <p>Idipur Pilot High School, Goshairhat</p>
-                                    <p className="text-2xl">4.86 out of 5</p>
-                                    <progress className="progress w-full" value="100" max="100"></progress>
-                                </div>
-                            </div>
-
+            <div className="hero bg-base-200">
+                <div className="hero-content flex-col lg:flex-row-reverse m-0 p-0">
+                    <img src="https://i.ibb.co/cJD4Rbb/Whats-App-Image-2024-01-18-at-13-12-22-37dcd2ba-removebg-preview.png" />
+                    <div>
+                        <h1 className="text-5xl font-bold font-mono italic">Hello !</h1>
+                        <h1 className="text-5xl font-bold uppercase font-serif">I am Tayfur</h1>
+                        <p className="py-6">I'm Tayfur, professional web developer with long time experience in this field​. and more this Sociel midea</p>
+                        <div className="flex gap-6 text-emerald-500 mb-10">
+                            <a href="https://www.facebook.com/obaydul.kuasha.1/" target="_blank" rel="noopener noreferrer" className="p-2 border-2 rounded-full border-emerald-400 text-3xl">  <FaFacebook /> </a>
+                            <a href="https://twitter.com/ObaydulKuasha" target="_blank" rel="noopener noreferrer" className="p-2 border-2 border-emerald-400 rounded-full text-3xl">  <FaTwitter /> </a>
+                            <a href="https://www.instagram.com/obaydul_kuasha/" target="_blank" rel="noopener noreferrer" className="p-2 border-2 border-emerald-400 rounded-full text-3xl">  <FaInstagram /> </a>
+                            <a href="https://www.linkedin.com/in/obaydulkuasha/" target="_blank" rel="noopener noreferrer" className="p-2 border-2 border-emerald-400 rounded-full text-3xl">  <FaLinkedin /> </a>
+                            <a href="https://github.com/ObaydulK"  target="_blank" rel="noopener noreferrer"  className="p-2 border-2 border-emerald-400 rounded-full text-3xl target:_blank" >< FaGithub /> </a>
                         </div>
-
-
-
-
-
-
-                        <div className="text-5xl font-bold">Education for Web</div>
-                        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
-                            <li>
-                                <div className="timeline-middle">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" /></svg>
-                                </div>
-                                <div className="timeline-start md:text-end mb-10">
-                                    <time className="font-mono italic">2019</time>
-                                    <div className="text-lg font-black">Shariatpur Polytechnic institute</div>
-                                    <p>ইঞ্জিনিয়ারিং এর দ্বিতীয় সেমিস্টারে প্রথম বার জানতে পারলাম , যে Html,Css নামে এক ধরনের ল্যাঙ্গুয়েজ আছে । এই ল্যাঙ্গুয়েজ দিয়ে ধরনের ওয়েবসাইট বানানো যায় । তারপর থেকে আমার ভেতর কেমন যেন একটি কিউরিসিটি শুরু হল । যে আমি একদিন এই ডেভলপার হব ।  এই জন্য আমি ওই দিন থেকে কলেজে ক্লাস শুরু করি । কিন্তু কলেজে যেহেতু এই বিষয়ে অনেক বেশি অভিজ্ঞতা সম্পূর্ণ শিক্ষক না থাকায় ।আমি ঠিকভাবে শিখতে পারিনি তাই যতটুকু শিখছি একটু একটু করে বিভিন্ন ধরনের ইউটিউব ভিডিও থেকে.</p>
-                                </div>
-                                <hr />
-                            </li>
-                            <li>
-                                <hr />
-                                <div className="timeline-middle">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" /></svg>
-                                </div>
-                                <div className="timeline-end mb-10">
-                                    <time className="font-mono italic">2021</time>
-                                    <div className="text-lg font-black">It-Bari</div>
-                                    <p>কিছুদিন পর ৬ সেমিস্টারে থাকা  সময় । আমি একটা কোর্স পাই It-Bari ওই কোর্সটা প্রায় পার্ট ছিল চারটি । আমি তিনটা পার্ট কমপ্লিট করলাম । যা থেকে মোটামুটি একটু শিখছি ।তাতে শেখার আগ্রহ আরো বেড়ে গেল । কিন্তু কোর্স  ছিল অনেক আগের তার জন্য বেশি কিছু একটা শিখতে পারিনি । তাও মোটামুটি  যতটুকু শিখছি কিছু সিঙ্গেল সাইড ডিজাইন করছি ।</p>
-                                </div>
-                                <hr />
-                            </li>
-                            <li>
-                                <hr />
-                                <div className="timeline-middle">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" /></svg>
-                                </div>
-                                <div className="timeline-start md:text-end mb-10">
-                                    <time className="font-mono italic">2022</time>
-                                    <div className="text-lg font-black">Creative it</div>
-                                    <p>এরপরে ডিপ্লোমাতে অষ্টম সেমিস্টারে ইন্টারনি  জন্য বিভিন্ন ইন্ডাস্ট্রিতে পাঠানো হয় । তখনো আমি এই ওয়েব ডেভেলপমেন্ট বেছে নিয়েছি ইন্টারনি করার জন্য । ওয়েব ডিজাইনিং ইন্টারনি  হিসেবে আমি ক্রিয়েটিভ আইটি বেছে নিয়েছিলাম । কিন্তু দুর্ভাগ্য আমার এখান থেকেও আমি ভালোভাবে শিখতে পারিনি । তবে মোটামুটি  শিখেছি তবে নতুন কিছু শিখেছি । কিন্তু এই  ওয়েব ডেভেলপমেন্টের চিন্তা আমার মাথা থেকে কখনোই যায় না.</p>
-                                </div>
-                                <hr />
-                            </li>
-                            <li>
-                                <hr />
-                                <div className="timeline-middle">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" /></svg>
-                                </div>
-                                <div className="timeline-end  mb-10">
-                                    <time className="font-mono italic">2022</time>
-                                    <div className="text-lg font-black">Programing hero</div>
-                                    <p> তারপর আমি অন্য একটা চাকরি ধরি । এবং চাকুরীর পাশাপাশি প্রোগ্রামিং হিরোর একটি ওয়েব ডেভেলপমেন্ট কোর্স এনরোলমেন্ট করি । সেখান থেকে দীর্ঘ ছয় মাস অনেক কিছু শিখেছি যেমন Html5 || CCS3 || JavaScript || Es6 || React.js || Tailwind Css || Bootstarp || Flowbite || Mamba UI || Daisy UI || Preline || Jqury || Next.js || Mongodb || Firebase || GitHub || Figma || PSD || শিখে কোর্স কমপ্লিট করে । কিন্তু আমার মনে হচ্ছিল যে আমার আরো অনেক কিছু শেখার দরকার । তাই আমি এখনো এই কোর্সের সাথে নতুন কিছু শেখার চেষ্টা করতেছি । কিন্তু অন্য একটা চাকরির পাশাপাশি এইটা চালাতে কষ্ট হয় । তাও প্রায় দৈনিক পাঁচ থেকে সাত ঘন্টা কোডিং করার চেষ্টা করি ।
-                                    </p>
-                                </div>
-                            </li>
-                            {/* <li>
-                                <hr />
-                                <div className="timeline-middle">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" /></svg>
-                                </div>
-                                <div className="timeline-start md:text-end mb-10">
-                                    <time className="font-mono italic">2023</time>
-                                    <div className="text-lg font-black">skytech</div>
-                                    <p>এখন ভেবেছি যে একটা ডেভেলপমেন্ট কোম্পানিতে জব নিয়ে ফুল টাইম কোর্ডিংয়ের পেছনে ব্যয় করব । তাইলে আমি আরো অনেক ভালো কিছু করতে পারবো । কারণ আমি জানি যে আমার ভেতরে কোর্ডিং প্রতি কতটা ভালোবাসা আছে ।</p>
-                                </div>
-                            </li> */}
-                        </ul>
+                        <button className="btn  border-3 border-emerald-400 font-bold  uppercase">See Portfolios</button>
                     </div>
                 </div>
             </div>

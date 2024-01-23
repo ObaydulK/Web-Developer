@@ -12,7 +12,7 @@ const Service = () => {
                         <h1 className="text-emerald-200 uppercase text-5xl font-bold"> Services and solutions</h1>
                     </div>
 
-                    <div className="grid grid-flow-row grid-cols-3">
+                    <div className="lg:grid grid-flow-row grid-cols-3 ">
                         <div className='  flex gap-5 items-center py-10'>
                             <div className='text-3xl text-blue-500'><FaReact /> </div>
                             <div>

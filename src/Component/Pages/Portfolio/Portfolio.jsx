@@ -1,26 +1,8 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"; 
 import Slider from "react-slick";
-import Blog from "../Blog/Blog";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 const Portfolio = () => {
-
     var settings = {
         // dots: true,
         infinite: true,
@@ -93,9 +75,6 @@ const Portfolio = () => {
             }
         ]
     };
-
-
-
     return (
         <div className="bg-base-100" >
             <div className="font-serif text-3xl font-bold text-center py-7 border rounded-r-2xl rounded-l-3xl shadow-2xl text-white">
@@ -103,7 +82,6 @@ const Portfolio = () => {
                 <div className="  ">I Fell in Love With Back End Developer</div>
 
             </div>
-
             {/* love with web development start   */}
             <div className=" text-emerald-200   text-5xl font-bold font-mono text-center py-10 underline" > The journey of web development</div>
             <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
@@ -167,10 +145,6 @@ const Portfolio = () => {
                 </li>
             </ul>
             {/* love with web development part   */}
-
-
-
-
             {/* Comfortable for web base Language part start */}
             <div className="py-10 bg-base-200 shadow-lg">
                 <div className="text-center py-10">
@@ -251,13 +225,7 @@ const Portfolio = () => {
                     </div> */}
                 </Slider>
             </div>
-
             {/* Comfortable for web base Language part end */}
-
-
-
-
-
             {/* My Recent Best Works part start */}
             <div>
                 <div>
@@ -274,8 +242,8 @@ const Portfolio = () => {
                                     </figure>
                                     <div className="   ">
                                         <div>
-                                            <h2 className="card-title">Restur </h2>
-                                            <p className=" ">Use for Code: Html,css,JavaScript,react,daysiui,react-router, </p>
+                                            <h2 className="card-title">Car-Doctor </h2>
+                                            <p className=" ">Use for Code: Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router,React Icone </p>
                                         </div>
                                         <div className=" text-center ">
                                             <div className="collapse bg-base-200">
@@ -286,8 +254,8 @@ const Portfolio = () => {
                                                 <div className="collapse-content    bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
                                                     <a href="https://github.com/ObaydulK/Car-Doctor" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black">Push Github</a><br />
                                                     <a href="https://car-doctor-sigma.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black my-2">Push Live link</a><br />
-                                                    <a href="" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black"> Push Sorch file</a>
-                                                    <a href="http://" >  </a>
+                                                    {/* <a href="" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black"> Push Sorch file</a> */}
+                                                    {/* <a href="http://" >  </a> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -304,8 +272,8 @@ const Portfolio = () => {
                                     </figure>
                                     <div className="   ">
                                         <div>
-                                            <h2 className="card-title">esturent</h2>
-                                            <p className=" ">Use for Code: Html,css,JavaScript,react,daysiui,  react-router, </p>
+                                            <h2 className="card-title">Technology IT Solutions</h2>
+                                            <p className=" ">Use for Code:  Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router, GitHub, vercel</p>
                                         </div>
                                         <div className=" text-center ">
                                             <div className="collapse bg-base-200">
@@ -316,8 +284,8 @@ const Portfolio = () => {
                                                 <div className="collapse-content    bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
                                                     <a href="https://github.com/ObaydulK/Technology-It-Solutions" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black">Push Github</a><br />
                                                     <a href="https://technology-it-solutions.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black my-2">Push Live link</a><br />
-                                                    <a href="{blog}" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black"> Push Sorch file</a>
-                                                    <a href="http://" > </a>
+                                                    {/* <a href="{blog}" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black"> Push Sorch file</a> */}
+                                                    {/* <a href="http://" > </a> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -334,8 +302,8 @@ const Portfolio = () => {
                                     </figure>
                                     <div className="   ">
                                         <div>
-                                            <h2 className="card-title">Resturent</h2>
-                                            <p className=" ">Use for Code: Html,css,JavaScript,react,daysiui,  react-router, </p>
+                                            <h2 className="card-title">Professional Web Developer</h2>
+                                            <p className=" ">Use for Code:  Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router,React Icone, Github, Vercel </p>
                                         </div>
                                         <div className=" text-center ">
                                             <div className="collapse bg-base-200">
@@ -365,7 +333,7 @@ const Portfolio = () => {
                                     <div className="   ">
                                         <div>
                                             <h2 className="card-title">Home Press Real Estate</h2>
-                                            <p className=" ">Use for Code: Html,css,JavaScript,react,daysiui,  react-router, </p>
+                                            <p className=" ">Use for Code:  Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router,React Icone,React-Slick Github, Vercel </p>
                                         </div>
                                         <div className=" text-center ">
                                             <div className="collapse bg-base-200">
@@ -375,7 +343,7 @@ const Portfolio = () => {
                                                 </div>
                                                 <div className="collapse-content    bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
                                                     <a href="https://github.com/ObaydulK/HomePress-Real-Estate" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black">Push Github</a><br />
-                                                    <a href="https://i.ibb.co/j350HQW/Screenshot-2024-01-23-at-21-40-35-Vite-React.png" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black my-2">Push Live link</a><br />
+                                                    <a href=" https://home-press-real-estate-cfcb.vercel.app/  " target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black my-2">Push Live link</a><br />
                                                     {/* <a href="" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black"> Push Sorch file</a> */}
                                                     {/* <a href="http://" ></a> */}
                                                 </div>
@@ -395,7 +363,7 @@ const Portfolio = () => {
                                     <div className="   ">
                                         <div>
                                             <h2 className="card-title">Resturent</h2>
-                                            <p className=" ">Use for Code: Html,css,JavaScript,react,daysiui,  react-router, </p>
+                                            <p className=" ">Use for Code: Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router,React Icone,React-Slick Github, Vercel </p>
                                         </div>
                                         <div className=" text-center ">
                                             <div className="collapse bg-base-200">
@@ -404,7 +372,7 @@ const Portfolio = () => {
                                                     Show project link
                                                 </div>
                                                 <div className="collapse-content    bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                                                    <a href="https://github.com/ObaydulK/professional-web-developer" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black">Push Github</a><br />
+                                                    <a href="https://github.com/programming-hero-web-course-4/b8a9-event-management-ObaydulK" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black">Push Github</a><br />
                                                     <a href="https://b8a9-event-management-obaydul-k.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black my-2">Push Live link</a><br />
                                                     {/* <a href="" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black"> Push Sorch file</a> */}
                                                     {/* <a href="http://" ></a> */}
@@ -510,9 +478,6 @@ const Portfolio = () => {
                 </div>
             </div>
             {/* My Recent Best Works part end */}
-
-
-
             {/* My Works Active nes part start */}
             <div className="stats shadow w-full md:   py-10 text-center">
 
@@ -557,13 +522,7 @@ const Portfolio = () => {
 
             </div>
             {/* My Works Active nes part end */}
-
-
-
-
         </div >
-
-
     );
 };
 

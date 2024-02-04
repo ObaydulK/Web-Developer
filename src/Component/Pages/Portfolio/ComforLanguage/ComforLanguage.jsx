@@ -11,9 +11,11 @@ var settings = {
     autoplay: true,
     speed: 2000,
     autoplaySpeed: 2000,
-    slidesToShow: 6,
+    slidesToShow: 5,
     slidesToScroll: 1,
-    initialSlide: 0,
+    initialSlide: 0, 
+    rows: 2,
+    
     responsive: [
         {
             breakpoint: 1024,
@@ -56,63 +58,63 @@ const ComforLanguage = () => {
                 </div>
                 <Slider {...settings}>
                     <div className=" p-2 ">
-                        <div className="bg-emerald-400 rounded-2xl ">
-                            <h3><a href="http://" target="_blank" rel="noopener noreferrer" className="  text-9xl"><img src="https://i.ibb.co/FJTwMxn/html.png" alt="Language image" /></a></h3>
+                        <div className="bg-emerald-400 rounded-2xl  w-3/4">
+                            <h3><a href="http://" target="_blank" rel="noopener noreferrer" className="  "><img src="https://i.ibb.co/FJTwMxn/html.png" alt="Language image" /></a></h3>
                         </div>
                     </div>
                     <div className=" p-2 ">
-                        <div className="bg-emerald-400 rounded-2xl ">
-                            <h3> <a href="http://" target="_blank" rel="noopener noreferrer" className="  text-9xl"><img src="https://i.ibb.co/SwsSkxP/css.png" alt="Language image" /></a></h3>
+                        <div className="bg-emerald-400 rounded-2xl  w-3/4">
+                            <h3> <a href="http://" target="_blank" rel="noopener noreferrer" className="  "><img src="https://i.ibb.co/SwsSkxP/css.png" alt="Language image" /></a></h3>
                         </div>
                     </div>
                     <div className=" p-2 ">
-                        <div className="bg-emerald-400 rounded-2xl ">
-                            <h3>  <a href="http://" target="_blank" rel="noopener noreferrer" className="  text-9xl"><img src="https://i.ibb.co/Fq4G6py/javascript.png" alt="Language image" /></a></h3>
+                        <div className="bg-emerald-400 rounded-2xl  w-3/4">
+                            <h3>  <a href="http://" target="_blank" rel="noopener noreferrer" className="  "><img src="https://i.ibb.co/Fq4G6py/javascript.png" alt="Language image" /></a></h3>
                         </div>
                     </div>
                     <div className=" p-2 ">
-                        <div className="bg-emerald-400 rounded-2xl ">
-                            <h3>  <a href="http://" target="_blank" rel="noopener noreferrer" className="  text-9xl"><img src="https://i.ibb.co/Qm9bM7s/react.png" alt="Language image" /></a></h3>
+                        <div className="bg-emerald-400 rounded-2xl  w-3/4">
+                            <h3>  <a href="http://" target="_blank" rel="noopener noreferrer" className="  "><img src="https://i.ibb.co/Qm9bM7s/react.png" alt="Language image" /></a></h3>
                         </div>
                     </div>
                     <div className=" p-2 ">
-                        <div className="bg-emerald-400 rounded-2xl ">
-                            <h3><a href="http://" target="_blank" rel="noopener noreferrer" className="  text-9xl"><img src="https://i.ibb.co/KrVX2KL/nodejs.png" alt="Language image" /></a></h3>
+                        <div className="bg-emerald-400 rounded-2xl  w-3/4">
+                            <h3><a href="http://" target="_blank" rel="noopener noreferrer" className="  "><img src="https://i.ibb.co/KrVX2KL/nodejs.png" alt="Language image" /></a></h3>
                         </div>
                     </div>
                     <div className=" p-2 ">
-                        <div className="bg-emerald-400 rounded-2xl p-3 ">
-                            <h3> <a href="http://" target="_blank" rel="noopener noreferrer" className="  text-9xl"><img src="https://i.ibb.co/0K3wYwN/bootstrap.png" alt="Language image" /></a></h3>
+                        <div className="bg-emerald-400 rounded-2xl p-3  w-3/4">
+                            <h3> <a href="http://" target="_blank" rel="noopener noreferrer" className="  "><img src="https://i.ibb.co/0K3wYwN/bootstrap.png" alt="Language image" /></a></h3>
                         </div>
                     </div>
                     <div className=" p-2 ">
-                        <div className="bg-emerald-400 rounded-2xl ">
-                            <h3><a href="http://" target="_blank" rel="noopener noreferrer" className="  text-9xl"><img src="https://i.ibb.co/YRstSw4/7577995.webp" alt="Language image" /></a></h3>
+                        <div className="bg-emerald-400 rounded-2xl  w-3/4">
+                            <h3><a href="http://" target="_blank" rel="noopener noreferrer" className="  "><img src="https://i.ibb.co/YRstSw4/7577995.webp" alt="Language image" /></a></h3>
                         </div>
                     </div>
                     <div className=" p-2 ">
-                        <div className="bg-emerald-400 rounded-2xl ">
-                            <h3><a href="http://" target="_blank" rel="noopener noreferrer" className="  text-9xl"><img src="https://i.ibb.co/HXcXyRC/mongo-db.png" alt="Language image" /></a></h3>
+                        <div className="bg-emerald-400 rounded-2xl w-3/4">
+                            <h3><a href="http://" target="_blank" rel="noopener noreferrer" className="  "><img src="https://i.ibb.co/HXcXyRC/mongo-db.png" alt="Language image" /></a></h3>
                         </div>
                     </div>
                     <div className=" p-2 ">
-                        <div className="bg-emerald-400 rounded-2xl ">
-                            <h3><a href="http://" target="_blank" rel="noopener noreferrer" className="  text-9xl"><img src="https://i.ibb.co/zm42z6N/git.png" alt="Language image" /></a></h3>
+                        <div className="bg-emerald-400 rounded-2xl w-3/4">
+                            <h3><a href="http://" target="_blank" rel="noopener noreferrer" className="  "><img src="https://i.ibb.co/zm42z6N/git.png" alt="Language image" /></a></h3>
                         </div>
                     </div>
                     <div className=" p-2 ">
-                        <div className="bg-emerald-400 rounded-2xl ">
-                            <h3><a href="http://" target="_blank" rel="noopener noreferrer" className="  text-9xl"><img src="https://i.ibb.co/zrJn7kp/figma.png" alt="Language image" /></a></h3>
+                        <div className="bg-emerald-400 rounded-2xl w-3/4">
+                            <h3><a href="http://" target="_blank" rel="noopener noreferrer" className="  "><img src="https://i.ibb.co/zrJn7kp/figma.png" alt="Language image" /></a></h3>
                         </div>
                     </div>
                     <div className="  p-2  ">
-                        <div className="bg-emerald-400 rounded-2xl p-3">
-                            <h3> <a href="http://" target="_blank" rel="noopener noreferrer" className="  text-9xl "><img className="rounded-lg drop-shadow-2xl" src="https://i.ibb.co/chcrjNC/firebage-removebg-preview.png" alt="Language image" /></a></h3>
+                        <div className="bg-emerald-400 rounded-2xl p-3 w-3/4">
+                            <h3> <a href="http://" target="_blank" rel="noopener noreferrer" className="   "><img className="rounded-lg drop-shadow-2xl" src="https://i.ibb.co/chcrjNC/firebage-removebg-preview.png" alt="Language image" /></a></h3>
                         </div>
                     </div>
                     <div className=" p-2 ">
-                        <div className="bg-emerald-400 rounded-2xl ">
-                            <h3> <a href="http://" target="_blank" rel="noopener noreferrer" className="  text-9xl" ><img src="https://i.ibb.co/dD0sTFs/visual-studio-code.png" alt="Language image" /></a></h3>
+                        <div className="bg-emerald-400 rounded-2xl w-3/4">
+                            <h3> <a href="http://" target="_blank" rel="noopener noreferrer" className="  " ><img src="https://i.ibb.co/dD0sTFs/visual-studio-code.png" alt="Language image" /></a></h3>
                         </div>
                     </div>
                     {/* <div>

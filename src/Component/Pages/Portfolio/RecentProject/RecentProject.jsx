@@ -54,7 +54,7 @@ const RecentProject = () => {
                             <div className="px-2">
                                 <div className="card p-2 font-mono font-bold  bg-yellow-50 text-black shadow-xl">
                                     <figure className=" ">
-                                        <img src="https://i.ibb.co/G7NR84Q/Screenshot-2024-01-23-at-21-20-06-New-Project-Vercel.png" alt=" " className="rounded-xl" />
+                                        <img src="https://i.ibb.co/G7NR84Q/Screenshot-2024-01-23-at-21-20-06-New-Project-Vercel.png" alt=" " className="rounded-xl  h-44 border-4 w-full" />
                                     </figure>
                                     <div className="   ">
                                         <div>
@@ -84,7 +84,7 @@ const RecentProject = () => {
                             <div className="px-2">
                                 <div className="card p-2 font-mono font-bold  bg-yellow-50 text-black shadow-xl">
                                     <figure className=" ">
-                                        <img src="https://i.ibb.co/Pxt0JPf/Screenshot-2024-01-23-at-21-31-46-New-Project-Vercel.png" alt="Shoes" className="rounded-xl" />
+                                        <img src="https://i.ibb.co/Pxt0JPf/Screenshot-2024-01-23-at-21-31-46-New-Project-Vercel.png" alt="Shoes" className="rounded-xl h-44 border-4 w-full" />
                                     </figure>
                                     <div className="   ">
                                         <div>
@@ -114,7 +114,7 @@ const RecentProject = () => {
                             <div className="px-2">
                                 <div className="card p-2 font-mono font-bold  bg-yellow-50 text-black shadow-xl">
                                     <figure className=" ">
-                                        <img src="https://i.ibb.co/j350HQW/Screenshot-2024-01-23-at-21-40-35-Vite-React.png" alt="Shoes" className="rounded-xl" />
+                                        <img src="https://i.ibb.co/j350HQW/Screenshot-2024-01-23-at-21-40-35-Vite-React.png" alt="Shoes" className="rounded-xl h-44 border-4 w-full" />
                                     </figure>
                                     <div className="   ">
                                         <div>
@@ -144,7 +144,7 @@ const RecentProject = () => {
                             <div className="px-2">
                                 <div className="card p-2 font-mono font-bold  bg-yellow-50 text-black shadow-xl">
                                     <figure className=" ">
-                                        <img src="https://i.ibb.co/DDs8PD2/Screenshot-2024-01-23-at-21-48-22-New-Project-Vercel.png" alt="Shoes" className="rounded-xl" />
+                                        <img src="https://i.ibb.co/DDs8PD2/Screenshot-2024-01-23-at-21-48-22-New-Project-Vercel.png" alt="Shoes" className="rounded-xl h-44 border-4 w-full" />
                                     </figure>
                                     <div className="   ">
                                         <div>
@@ -174,7 +174,7 @@ const RecentProject = () => {
                             <div className="px-2">
                                 <div className="card p-2 font-mono font-bold  bg-yellow-50 text-black shadow-xl">
                                     <figure className=" ">
-                                        <img src="https://i.ibb.co/fSMgmpv/Screenshot-2024-01-23-at-21-52-52-Dashboard.png" alt="Shoes" className="rounded-xl" />
+                                        <img src="https://i.ibb.co/fSMgmpv/Screenshot-2024-01-23-at-21-52-52-Dashboard.png" alt="Shoes" className="rounded-xl h-44 border-4 w-full" />
                                     </figure>
                                     <div className="   ">
                                         <div>

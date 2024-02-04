@@ -16,7 +16,6 @@ const Portfolio = () => {
             </div>
             <ComforLanguage />
             <DevelopCarry />
-            
             <RecentProject />
             <CodeReviwe />
         </div >

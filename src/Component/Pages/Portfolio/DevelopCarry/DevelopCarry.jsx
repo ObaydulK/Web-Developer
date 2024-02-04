@@ -1,12 +1,4 @@
 
-
-
-
-
-
-
-
-
 const DevelopCarry = () => {
     return (
         <div>

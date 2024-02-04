@@ -9,12 +9,12 @@ const Home = () => {
     return (
         <div>
             <Helmet>
-                <title>Portfolio/Home</title>
-                <link rel="icon" href="https://i.ibb.co/x51wWmN/Whats-App-Image-2024-01-18-at-13-12-22-37dcd2ba-removebg-preview-Copy.png" />
+                <title> Home</title>
+                {/* <link rel="icon" href="https://i.ibb.co/x51wWmN/Whats-App-Image-2024-01-18-at-13-12-22-37dcd2ba-removebg-preview-Copy.png" /> */}
             </Helmet>
             <About />
-            <Service />
             <Portfolio />
+            <Service />
             <Contact />
         </div>
     );

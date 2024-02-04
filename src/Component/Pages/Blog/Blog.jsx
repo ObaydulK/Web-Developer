@@ -6,7 +6,7 @@ const Blog = () => {
                 <div className="bg-emerald-300   text-black py-10  w-2/3">
                 <div className="px-3">
                     <img src="https://i.ibb.co/6Z3Kbk9/Car.png" alt="" />
-                   <h1>Car Doctor fuck you</h1>
+                   <h1>Car Doctor </h1>
                    <h2>Owr: Obaydul_Kuasha</h2>
                     <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum minus perspiciatis temporibus, eius quidem voluptatum nisi facere fuga, illum exercitationem maiores animi, laborum at ullam quod. Error eos sit et!</h1>
                 </div>

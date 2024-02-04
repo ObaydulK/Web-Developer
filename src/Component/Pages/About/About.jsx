@@ -8,8 +8,8 @@ const About = () => {
                     <img src="https://i.ibb.co/cJD4Rbb/Whats-App-Image-2024-01-18-at-13-12-22-37dcd2ba-removebg-preview.png" />
                     <div>
                         <h1 className="text-5xl font-bold font-mono italic">Hello !</h1>
-                        <h1 className="text-5xl font-bold uppercase font-serif">I'm Tayfur</h1>
-                        <p className="py-6">I'm TayFur, professional FullStack developer with long time experience in this field​. and more this Sociel midea</p>
+                        <h1 className="text-5xl font-bold uppercase font-serif">I'm ObayduR Kuasha</h1>
+                        <p className="py-6 capitalize">I'm Obaydul_Kuasha, professional Frontend developer (React) with long time experience in this field​. and more this social media</p>
                         <div className="flex gap-6 text-emerald-500 mb-10">
                             <a href="https://www.facebook.com/obaydul.kuasha.1/" target="_blank" rel="noopener noreferrer" className="p-2 border-2 rounded-full border-emerald-400 text-3xl">  <FaFacebook /> </a>
                             <a href="https://twitter.com/ObaydulKuasha" target="_blank" rel="noopener noreferrer" className="p-2 border-2 border-emerald-400 rounded-full text-3xl">  <FaTwitter /> </a>

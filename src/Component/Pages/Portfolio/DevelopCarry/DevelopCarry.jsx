@@ -1,9 +1,11 @@
+import Title from "../Title/Titles";
 
 const DevelopCarry = () => {
     return (
         <div>
             {/* love with web development start   */}
-            <div className=" text-emerald-200   text-5xl font-bold font-mono text-center py-10 underline" > The journey of web development</div>
+           
+            <Title  subHeading="'Lovely Coding Journey life'" />
             <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
                 <li>
                     <div className="timeline-middle">

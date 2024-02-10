@@ -3,7 +3,7 @@ import AboutEducation from "./AboutEducation/AboutEducation";
 import AboutBanner from "./AboutBanner/AboutBanner";
 const About = () => {
     return (
-        <div>
+        <div >
             <AboutBanner />
             <AboutEducation />
         </div>

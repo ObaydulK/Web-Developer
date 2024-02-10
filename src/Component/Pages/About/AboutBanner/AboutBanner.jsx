@@ -1,10 +1,13 @@
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+
+
+
 const AboutBanner = () => {
     return (
-        <div>
-            <div className="hero bg-base-200">
+        <div className=" ">
+            <div className="hero bg-base-200 ">
                 <div className="hero-content flex-col lg:flex-row-reverse m-0 p-0">
-                    <img src="https://i.ibb.co/cJD4Rbb/Whats-App-Image-2024-01-18-at-13-12-22-37dcd2ba-removebg-preview.png" />
+                    <img src="https://i.ibb.co/TwWztNX/Obaydul-bg.png" />
                     <div>
                         <h1 className="text-5xl font-bold font-mono italic">Hello !</h1>
                         <h1 className="text-5xl font-bold uppercase font-serif">I'm ObayduR Kuasha</h1>

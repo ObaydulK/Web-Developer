@@ -51,7 +51,7 @@ const router = createBrowserRouter([
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='container m-auto   '>
+    <div className='container m-auto font-serif  '>
       <RouterProvider router={router} />
     </div>
 

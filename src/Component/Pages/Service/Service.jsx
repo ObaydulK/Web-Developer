@@ -1,15 +1,15 @@
 
 import { FaReact  } from "react-icons/fa";
 import { BiSupport } from "react-icons/bi";
+import Title from "../Portfolio/Title/Titles";
 
 const Service = () => {
     return (
-        <div className="bg-base-200">
+        <div className="bg-white bg-opacity-50 text-black">
             <div>
-                <div className="p-10 text-white">
-                    <div className="text-center py-10">
-                        <h1 className="text-emerald-200 uppercase text-3xl"> What We Do</h1>
-                        <h1 className="text-emerald-200 uppercase text-5xl font-bold"> Services and solutions</h1>
+                <div className="p-10 ">
+                    <div  >
+                        <Title subHeading=" 'What we Do' " Heading="Services and solutions"/>
                     </div>
 
                     <div className="lg:grid grid-flow-row grid-cols-3 ">
@@ -30,7 +30,7 @@ const Service = () => {
                         <div className='  flex gap-5 items-center py-10'>
                             <div className='text-3xl text-blue-500'><FaReact /> </div>
                             <div>
-                                <h1 className="uppercase font-bold text-3xl" >Ultra Responsive</h1>
+                                <h1 className="uppercase font-bold text-3xl" > Responsive</h1>
                                 <p className='opacity-40'>Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, <br /> omnis. ipsum dolor sit amet consectetur adipisicing elit. Non, assumenda.</p>
                             </div>
                         </div>

@@ -1,6 +1,7 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import Title from "../Title/Titles";
 
 
 
@@ -10,12 +11,13 @@ var settings = {
     infinite: true,
     autoplay: true,
     speed: 2000,
+    arrows: false,
     autoplaySpeed: 2000,
-    slidesToShow: 5,
+    slidesToShow: 7,
     slidesToScroll: 1,
-    initialSlide: 0, 
-    rows: 2,
-    
+    initialSlide: 0,
+    // rows: 2,
+
     responsive: [
         {
             breakpoint: 1024,
@@ -53,9 +55,8 @@ const ComforLanguage = () => {
         <div>
             {/* Comfortable for web base Language part start */}
             <div className="py-10 bg-base-200 shadow-lg">
-                <div className="text-center py-10">
-                    <h1 className=" text-emerald-200 uppercase lg:text-5xl sm:text-3xl font-bold font-mono text-center py-10 underline  ">  Comfortable for This Language</h1>
-                </div>
+                
+                <Title subHeading="'Comfortable Visit Language'"></Title>
                 <Slider {...settings}>
                     <div className=" p-2 ">
                         <div className="bg-emerald-400 rounded-2xl  w-3/4">

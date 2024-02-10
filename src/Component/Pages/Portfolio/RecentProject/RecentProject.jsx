@@ -1,6 +1,7 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import Title from "../Title/Titles";
 
 
 const RecentProject = () => {
@@ -8,6 +9,7 @@ const RecentProject = () => {
         // dots: true,
         infinite: true,
         autoplay: true,
+        arrows: false,
         speed: 2000,
         autoplaySpeed: 2000,
         slidesToShow: 4,
@@ -44,9 +46,7 @@ const RecentProject = () => {
         <div>
             {/* My Recent Best Works part start */}
             <div>
-                <div>
-                    <h1 className="text-emerald-200 uppercase text-5xl font-bold font-mono text-center py-10 underline" >My Recent Works</h1>
-                </div>
+                <Title subHeading="'My Reacent Works'"/>
                 <div>
                     <Slider {...Works}>
 

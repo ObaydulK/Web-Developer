@@ -23,7 +23,7 @@ const Header = () => {
                             {Navber}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl"> <span className='font-serif text-emerald-700 text-3xl italic'>T</span>ay<span className='font-serif text-emerald-700 text-3xl italic'>F</span>ur</a>
+                    <a className="btn btn-ghost text-xl"> <span className='font-serif text-emerald-700 text-3xl italic'>O</span>ba<span className='font-serif text-emerald-700 text-3xl italic'>Y</span>dur</a>
                 </div>
                 <div className="navbar-end hidden   lg:flex"  >
                     <ul className="menu menu-horizontal px-1   text-bold text-2xl">

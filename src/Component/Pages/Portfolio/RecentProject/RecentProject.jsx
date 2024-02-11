@@ -46,13 +46,13 @@ const RecentProject = () => {
         <div>
             {/* My Recent Best Works part start */}
             <div>
-                <Title subHeading="'My Reacent Works'"/>
+                <Title subHeading="'My Reacent Works'" />
                 <div>
                     <Slider {...Works}>
 
                         <div className="">
                             <div className="px-2">
-                                <div className="card p-2 font-mono font-bold  bg-yellow-50 text-black shadow-xl">
+                                <div className="card p-2  font-bold  bg-yellow-50 text-black shadow-xl">
                                     <figure className=" ">
                                         <img src="https://i.ibb.co/G7NR84Q/Screenshot-2024-01-23-at-21-20-06-New-Project-Vercel.png" alt=" " className="rounded-xl  h-44 border-4 w-full" />
                                     </figure>
@@ -82,7 +82,7 @@ const RecentProject = () => {
 
                         <div className="">
                             <div className="px-2">
-                                <div className="card p-2 font-mono font-bold  bg-yellow-50 text-black shadow-xl">
+                                <div className="card p-2   font-bold  bg-yellow-50 text-black shadow-xl">
                                     <figure className=" ">
                                         <img src="https://i.ibb.co/Pxt0JPf/Screenshot-2024-01-23-at-21-31-46-New-Project-Vercel.png" alt="Shoes" className="rounded-xl h-44 border-4 w-full" />
                                     </figure>
@@ -112,7 +112,7 @@ const RecentProject = () => {
 
                         <div className="">
                             <div className="px-2">
-                                <div className="card p-2 font-mono font-bold  bg-yellow-50 text-black shadow-xl">
+                                <div className="card p-2   font-bold  bg-yellow-50 text-black shadow-xl">
                                     <figure className=" ">
                                         <img src="https://i.ibb.co/j350HQW/Screenshot-2024-01-23-at-21-40-35-Vite-React.png" alt="Shoes" className="rounded-xl h-44 border-4 w-full" />
                                     </figure>
@@ -142,7 +142,7 @@ const RecentProject = () => {
 
                         <div className="">
                             <div className="px-2">
-                                <div className="card p-2 font-mono font-bold  bg-yellow-50 text-black shadow-xl">
+                                <div className="card p-2   font-bold  bg-yellow-50 text-black shadow-xl">
                                     <figure className=" ">
                                         <img src="https://i.ibb.co/DDs8PD2/Screenshot-2024-01-23-at-21-48-22-New-Project-Vercel.png" alt="Shoes" className="rounded-xl h-44 border-4 w-full" />
                                     </figure>
@@ -172,7 +172,7 @@ const RecentProject = () => {
 
                         <div className="">
                             <div className="px-2">
-                                <div className="card p-2 font-mono font-bold  bg-yellow-50 text-black shadow-xl">
+                                <div className="card p-2   font-bold  bg-yellow-50 text-black shadow-xl">
                                     <figure className=" ">
                                         <img src="https://i.ibb.co/fSMgmpv/Screenshot-2024-01-23-at-21-52-52-Dashboard.png" alt="Shoes" className="rounded-xl h-44 border-4 w-full" />
                                     </figure>
@@ -199,96 +199,6 @@ const RecentProject = () => {
                                 </div>
                             </div>
                         </div>
-
-                        {/* <div className="">
-                            <div className="px-2">
-                                <div className="card p-2 font-mono font-bold  bg-yellow-50 text-black shadow-xl">
-                                    <figure className=" ">
-                                        <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" />
-                                    </figure>
-                                    <div className="   ">
-                                        <div>
-                                            <h2 className="card-title">Resturent</h2>
-                                            <p className=" ">Use for Code: Html,css,JavaScript,react,daysiui,  react-router, </p>
-                                        </div>
-                                        <div className=" text-center ">
-                                            <div className="collapse bg-base-200">
-                                                <input type="checkbox" className="peer" />
-                                                <div className="collapse-title text-center font-bold bg-primary w-full text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content text-2xl">
-                                                    Show project link
-                                                </div>
-                                                <div className="collapse-content    bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                                                    <a href="https://preview.themeforest.net/item/kufa-personal-portfolio-template/full_screen_preview/25595557?_ga=2.248850053.386497631.1705310892-363274324.1705055523" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black">Push Github</a><br />
-                                                    <a href="" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black my-2">Push Live link</a><br />
-                                                    <a href="" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black"> Push Sorch file</a>
-                                                    <a href="http://" ></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="">
-                            <div className="px-2">
-                                <div className="card p-2 font-mono font-bold  bg-yellow-50 text-black shadow-xl">
-                                    <figure className=" ">
-                                        <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" />
-                                    </figure>
-                                    <div className="   ">
-                                        <div>
-                                            <h2 className="card-title">Resturent</h2>
-                                            <p className=" ">Use for Code: Html,css,JavaScript,react,daysiui,  react-router, </p>
-                                        </div>
-                                        <div className=" text-center ">
-                                            <div className="collapse bg-base-200">
-                                                <input type="checkbox" className="peer" />
-                                                <div className="collapse-title text-center font-bold bg-primary w-full text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content text-2xl">
-                                                    Show project link
-                                                </div>
-                                                <div className="collapse-content    bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                                                    <a href="https://preview.themeforest.net/item/kufa-personal-portfolio-template/full_screen_preview/25595557?_ga=2.248850053.386497631.1705310892-363274324.1705055523" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black">Push Github</a><br />
-                                                    <a href="" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black my-2">Push Live link</a><br />
-                                                    <a href="" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black"> Push Sorch file</a>
-                                                    <a href="http://" ></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="">
-                            <div className="px-2">
-                                <div className="card p-2 font-mono font-bold  bg-yellow-50 text-black shadow-xl">
-                                    <figure className=" ">
-                                        <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" />
-                                    </figure>
-                                    <div className="   ">
-                                        <div>
-                                            <h2 className="card-title">Resturent</h2>
-                                            <p className=" ">Use for Code: Html,css,JavaScript,react,daysiui,  react-router, </p>
-                                        </div>
-                                        <div className=" text-center ">
-                                            <div className="collapse bg-base-200">
-                                                <input type="checkbox" className="peer" />
-                                                <div className="collapse-title text-center font-bold bg-primary w-full text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content text-2xl">
-                                                    Show project link
-                                                </div>
-                                                <div className="collapse-content    bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                                                    <a href="https://preview.themeforest.net/item/kufa-personal-portfolio-template/full_screen_preview/25595557?_ga=2.248850053.386497631.1705310892-363274324.1705055523" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black">Push Github</a><br />
-                                                    <a href="" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black my-2">Push Live link</a><br />
-                                                    <a href="" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black"> Push Sorch file</a>
-                                                    <a href="http://" ></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> */}
 
                     </Slider>
                 </div>

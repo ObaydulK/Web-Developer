@@ -1,16 +1,18 @@
+import { Link } from "react-router-dom";
 
 const Contact = () => {
     return (
         <div>
             <div className="    bg-base-100 text-white  ">
-                <div className="hero-content items-center m-auto ">
+                <div className="hero-content items-center m-auto capitalize ">
                     <div className="text-center  flex-1 lg:text-left">
-                        <h3 className="  uppercase text-emerald-500 font-bold">information</h3>
-                        <h1 className="text-3xl font-bold uppercase pb-6 ">Contact Information</h1>
-                        <p>Event definition is - somthing that happens occurre How evesnt sentence. <br /> Synonym when an unknown printer took a galley.</p>
-                        <h1 className="uppercase font-bold">OFFICE IN <span className="text-emerald-500">NEW YORK</span></h1>
-                        <p className="py-2"><span className="uppercase">Address:</span> Dhaka-1230, Uttara sector#4,Road#9,House#00 </p>
-                        <p><span className="uppercase">Phome:</span> +8801518792691</p>
+                        <h3 className="   text-emerald-500 font-bold">information</h3>
+                        <h1 className="text-3xl font-bold  pb-6 ">Contact Information</h1>
+                        {/* <p>Event definition is - somthing that happens occurre How evesnt sentence. <br /> Synonym when an unknown printer took a galley.</p> */}
+                        <h1 className="uppercase font-bold">HOme IN : <span className="text-emerald-500 ">Uttara Dhaka</span></h1>
+                        <p className="py-2"><span className="">Address  :</span>House#00,Road#9,Uttara sector#4, Dhaka-1230  </p>
+                        <p><span className="">Gmail :</span> obaydul00000@gmail.com</p>
+                        <p><span className="">Phone :</span> +8801518792691</p>
 
                     </div>
                     <div className="card shrink-0  flex-1    ">
@@ -22,10 +24,10 @@ const Contact = () => {
                                 <input type="email" placeholder="Your email *" className="input input-bordered " required />
                             </div>
                             <div>
-                                <input type="text" name="text" placeholder="Your Message *" id="" className="w-full h-36" />
+                                <input type="text" name="text" placeholder="Your Message *" id="" className="w-full h-36 px-5 border-2 rounded-xl" />
                             </div>
                             <div className="form-control mt-6 items-start">
-                                <button className="btn btn-outline font-bold text-white">Send Massage</button>
+                               <Link to='/blog' className="btn btn-outline font-bold text-white"> Send Massage </Link> 
                             </div>
                         </form>
 

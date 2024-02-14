@@ -19,9 +19,9 @@ const AboutBanner = () => {
                             <a href="https://twitter.com/ObaydulKuasha" target="_blank" rel="noopener noreferrer" className="p-2 border-2 border-emerald-400 rounded-full text-3xl">  <FaTwitter /> </a>
                             <a href="https://www.instagram.com/obaydul_kuasha/" target="_blank" rel="noopener noreferrer" className="p-2 border-2 border-emerald-400 rounded-full text-3xl">  <FaInstagram /> </a>
                             <a href="https://www.linkedin.com/in/obaydulkuasha/" target="_blank" rel="noopener noreferrer" className="p-2 border-2 border-emerald-400 rounded-full text-3xl">  <FaLinkedin /> </a>
-                            <a href="https://github.com/ObaydulK" target="_blank" rel="noopener noreferrer" className="p-2 border-2 border-emerald-400 rounded-full text-3xl target:_blank" >< FaGithub /> </a>
+                            {/* <a href="https://github.com/ObaydulK" target="_blank" rel="noopener noreferrer" className="p-2 border-2 border-emerald-400 rounded-full text-3xl target:_blank" > </a> */}
                         </div>
-                        <a href="https://professional-web-developer-y2fk.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn  border-3 border-emerald-400 font-bold  uppercase">View Social  media</a>
+                        <a href="https://github.com/ObaydulK" target="_blank" rel="noopener noreferrer" className="btn  border-3 border-emerald-400 font-bold  uppercase"> View my Github < FaGithub /> </a>
                     </div>
                 </div>
             </div>

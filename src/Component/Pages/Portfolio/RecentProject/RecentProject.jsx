@@ -2,6 +2,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Title from "../Title/Titles";
+import RecentprojectTitle from "../Title/RecentprojectTitle";
 
 
 const RecentProject = () => {
@@ -42,6 +43,8 @@ const RecentProject = () => {
             }
         ]
     };
+
+
     return (
         <div>
             {/* My Recent Best Works part start */}
@@ -58,8 +61,7 @@ const RecentProject = () => {
                                     </figure>
                                     <div className="   ">
                                         <div>
-                                            <h2 className="card-title">Car-Doctor </h2>
-                                            <p className=" ">Use for Code: Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router,React Icone </p>
+                                            <RecentprojectTitle ProjectTitle="Car-Doctor" porjectDiscripiton="Use for Code: Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router,React Icone" />
                                         </div>
                                         <div className=" text-center ">
                                             <div className="collapse bg-base-200">
@@ -88,8 +90,7 @@ const RecentProject = () => {
                                     </figure>
                                     <div className="   ">
                                         <div>
-                                            <h2 className="card-title">Technology IT Solutions</h2>
-                                            <p className=" ">Use for Code:  Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router, GitHub, vercel</p>
+                                            <RecentprojectTitle ProjectTitle="Technology IT Solutions" porjectDiscripiton="Use for Code:  Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router, GitHub, vercel" />
                                         </div>
                                         <div className=" text-center ">
                                             <div className="collapse bg-base-200">
@@ -118,8 +119,7 @@ const RecentProject = () => {
                                     </figure>
                                     <div className="   ">
                                         <div>
-                                            <h2 className="card-title">Professional Web Developer</h2>
-                                            <p className=" ">Use for Code:  Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router,React Icone, Github, Vercel </p>
+                                            <RecentprojectTitle ProjectTitle="Portfolio React js" porjectDiscripiton="Use for Code:  Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router,React Icone, Github, Vercel" />
                                         </div>
                                         <div className=" text-center ">
                                             <div className="collapse bg-base-200">
@@ -148,8 +148,7 @@ const RecentProject = () => {
                                     </figure>
                                     <div className="   ">
                                         <div>
-                                            <h2 className="card-title">Home Press Real Estate</h2>
-                                            <p className=" ">Use for Code:  Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router,React Icone,React-Slick Github, Vercel </p>
+                                            <RecentprojectTitle ProjectTitle="Home Press Real Estate" porjectDiscripiton="Use for Code:  Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router,React Icone,React-Slick Github, Vercel" />
                                         </div>
                                         <div className=" text-center ">
                                             <div className="collapse bg-base-200">
@@ -178,8 +177,7 @@ const RecentProject = () => {
                                     </figure>
                                     <div className="   ">
                                         <div>
-                                            <h2 className="card-title">Resturent</h2>
-                                            <p className=" ">Use for Code: Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router,React Icone,React-Slick Github, Vercel </p>
+                                            <RecentprojectTitle ProjectTitle="Resturent" porjectDiscripiton="Use for Code: Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router,React Icone,React-Slick Github, Vercel" />
                                         </div>
                                         <div className=" text-center ">
                                             <div className="collapse bg-base-200">

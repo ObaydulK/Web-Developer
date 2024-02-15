@@ -8,7 +8,7 @@ const AboutBanner = () => {
     return (
         <div className=" ">
             <div className="hero bg-base-200 ">
-                <div className="hero-content flex-col lg:flex-row-reverse m-0 p-0">
+                <div className="hero-content flex-col lg:flex-row-reverse m-0 p-0 ">
                     <img src="https://i.ibb.co/TwWztNX/Obaydul-bg.png" />
                     <div className=" ">
                         <h1 className="text-5xl font-bold font-mono italic">Hello !</h1>

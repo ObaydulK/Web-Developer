@@ -12,7 +12,7 @@ const Portfolio = () => {
         <div className=" " >
 
             <div className="text-3xl font-bold text-center py-7 border rounded-r-2xl rounded-l-3xl shadow-2xl text-white">
-                <Title subHeading="Portfolio showcase" Heading="I Fell in Love With Back End Developer" />
+                <Title subHeading="Portfolio showcase" Heading="I Fell in Love With Front End Developer (React)" />
             </div>
             <ComforLanguage />
             <DevelopCarry />

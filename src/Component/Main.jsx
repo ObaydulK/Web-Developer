@@ -1,9 +1,14 @@
 import { Outlet } from "react-router-dom";
 import Footer from "../Header/Footer/Footer/Footer";
 import Header from "../Header/Header/Header";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const Main = () => {
+    useEffect(() => {
+        AOS.init();
+    }, [])
     return (
         <div>
             <Header />

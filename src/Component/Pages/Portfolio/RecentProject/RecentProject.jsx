@@ -1,6 +1,4 @@
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+ import Slider from "react-slick";
 import Title from "../Title/Titles";
 import RecentprojectTitle from "../Title/RecentprojectTitle";
 
@@ -49,7 +47,7 @@ const RecentProject = () => {
         <div>
             {/* My Recent Best Works part start */}
             <div>
-                <Title subHeading="'My Reacent Works'" />
+                <Title subHeading="'  Recent Works'" />
                 <div>
                     <Slider {...Works}>
 

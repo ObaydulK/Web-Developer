@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 
 const Contact = () => {
+
     return (
         <div>
-            <div className=" py-8   bg-base-100 text-black  ">
-                <div className="  items-center m-auto capitalize  ">
-                    <div className="text-center  lg:text-left">
+            <div className=" py-8   bg-base-100 text-black  " data-aos="flip-left" data-aos-easing="ease-out-cubic"data-aos-duration="2000">
+                <div className=" grid grid-flow-row lg:grid-cols-2 items-center m-auto capitalize  ">
+                    <div className="text-center ">
                         <h3 className="   text-emerald-500 font-bold">information</h3>
                         <h1 className="text-3xl font-bold  pb-6 ">Contact Information</h1>
                         {/* <p>Event definition is - somthing that happens occurre How evesnt sentence. <br /> Synonym when an unknown printer took a galley.</p> */}
@@ -27,13 +28,15 @@ const Contact = () => {
                                 <input type="text" name="text" placeholder="Your Message *" id="" className="w-full h-36 px-5 border-2 rounded-xl" />
                             </div>
                             <div className="form-control mt-6 items-start">
-                               <Link to='/blog' className="btn btn-outline font-bold text-white"> Send Massage </Link> 
+                                <Link to='/blog' className="btn btn-outline font-bold text-white"> Send Massage </Link>
                             </div>
                         </form>
 
                     </div>
                 </div>
             </div>
+
+
         </div>
     );
 };

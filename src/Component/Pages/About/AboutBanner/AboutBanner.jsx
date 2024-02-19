@@ -6,14 +6,18 @@ import Typewriter from 'react-ts-typewriter';
 
 const AboutBanner = () => {
     return (
-        <div className=" ">
+        <div className=" " >
             <div className="hero bg-base-200  ">
                 <div className="hero-content flex-col lg:flex-row-reverse m-0 px-3 ">
-                    <img src="https://i.ibb.co/TwWztNX/Obaydul-bg.png" />
-                    <div className=" min-[320px]:text-center lg:text-start ">
+                    <div data-aos="zoom-out-left"  data-aos-duration="2000">
+                       <img src="https://i.ibb.co/TwWztNX/Obaydul-bg.png" /> 
+                    </div>
+                    
+                    <div className=" min-[320px]:text-center lg:text-start " data-aos="zoom-out-right"  data-aos-duration="2000" >
                         <h1 className="text-5xl font-bold font-mono italic">Hello !</h1>
                         <h1 className="text-4xl font-bold uppercase font-serif py-5"> Wellcome my Portfolio  </h1>
-                        <h1 className="py-6 text-3xl capitalize" ><Typewriter loop={true} speed={300} text="I'm Obaydul_Kuasha, professional Frontend developer (React) " /> </h1>
+                        <h1 className="text-3xl font-bold  font-serif  "> I'm Obaydul_Kuasha  </h1>
+                        <h1 className="py-6 text-3xl capitalize" > <Typewriter loop={true} speed={300} text=" Frontend developer (React) " /> </h1>
                         <div className="   ">
                             <div className="flex gap-6 text-emerald-500 my-10  ">
                                 {/* <a href="https://www.facebook.com/obaydul.kuasha.1/" target="_blank" rel="noopener noreferrer" className="p-2 border-2 rounded-full border-emerald-400 text-3xl">  <FaFacebook /> </a> */}

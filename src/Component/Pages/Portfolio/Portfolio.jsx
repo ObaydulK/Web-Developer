@@ -9,9 +9,9 @@ const Portfolio = () => {
 
 
     return (
-        <div className=" " >
+        <div className="  " >
 
-            <div className="text-3xl font-bold text-center py-7 border rounded-r-2xl rounded-l-3xl shadow-2xl text-white">
+            <div className="text-3xl font-bold text-center py-7 border rounded-r-2xl rounded-l-3xl shadow-2xl ">
                 <Title subHeading="Portfolio showcase" Heading="I Fell in Love With Front End Developer (React)" />
             </div>
             <ComforLanguage />

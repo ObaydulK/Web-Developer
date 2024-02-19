@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 const Contact = () => {
     return (
         <div>
-            <div className="    bg-base-100 text-white  ">
-                <div className="hero-content items-center m-auto capitalize ">
-                    <div className="text-center  flex-1 lg:text-left">
+            <div className=" py-8   bg-base-100 text-black  ">
+                <div className="  items-center m-auto capitalize  ">
+                    <div className="text-center  lg:text-left">
                         <h3 className="   text-emerald-500 font-bold">information</h3>
                         <h1 className="text-3xl font-bold  pb-6 ">Contact Information</h1>
                         {/* <p>Event definition is - somthing that happens occurre How evesnt sentence. <br /> Synonym when an unknown printer took a galley.</p> */}
@@ -15,7 +15,7 @@ const Contact = () => {
                         <p><span className="">Phone :</span> +8801518792691</p>
 
                     </div>
-                    <div className="card shrink-0  flex-1    ">
+                    <div className="card shrink-0     ">
                         <form className="card-body ">
                             <div className="from-content shadow-2xl bg-base-100">
                                 <input type="text" placeholder="Your Name *" className="input input-bordered w-full" required />

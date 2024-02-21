@@ -1,5 +1,5 @@
 
-import { FaReact  } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 import { BiSupport } from "react-icons/bi";
 import Title from "../Portfolio/Title/Titles";
 
@@ -9,7 +9,7 @@ const Service = () => {
             <div>
                 <div className="p-10 ">
                     <div  >
-                        <Title subHeading=" 'What we Do' " Heading="Services and solutions"/>
+                        <Title subHeading=" 'What we Do' " Heading="Services and solutions" />
                     </div>
 
                     <div className="lg:grid grid-flow-row grid-cols-3 gap-10 bg-white bg-opacity-50 rounded-2xl p-5  ">

@@ -14,15 +14,15 @@ const AboutEducation = () => {
                     <div className=" " >
                         <img src="https://themebeyond.com/html/kufa/img/banner/banner_img2.png" className="max-w-sm  " data-aos="fade-right" data-aos-duration="500" />
                     </div>
-                    <div className=" ">
+                    <div className="capitalize   ">
                         <h1 className="text-5xl font-bold">Education</h1>
-                        <div>
+                        <div >
                             <div className=" flex flex-row gap-5 items-center    py-5" data-aos="zoom-out-right" data-aos-duration="2000">
                                 {/* <h1 className="text-emerald-400 text-2xl font-bold">2023 to 2027</h1> */}
                                 <p>------</p>
                                 <div className="font-bold">
-                                    <p className="text-2xl">BSc in computer Science</p>
-                                    <p className=""> World University of Bangladeshi, Uttara</p>
+                                    <p className="text-2xl">BSc in computer Science and Engineering</p>
+                                    <p className=""> Northern University,  Kawlar</p>
                                     <p className="text-2xl">0.00 Out of 4</p>
                                     <progress className="progress w-full" value="40" max="100"></progress>
                                 </div>

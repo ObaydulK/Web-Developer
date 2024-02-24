@@ -14,8 +14,8 @@ const AboutBanner = () => {
                             <img src="https://i.ibb.co/TwWztNX/Obaydul-bg.png" />
                         </div>
                     </div>
-                    <div className=" items-center pt-12  " data-aos="zoom-out-right" data-aos-duration="2000">
-                        <div className=" min-[320px]:text-center lg:text-start capitalize "  >
+                    <div className="  pt-12  " data-aos="zoom-out-right" data-aos-duration="2000">
+                        <div className=" min-[320px]:text-center lg:text-start capitalize  "  >
                             <h1 className="text-5xl font-bold font-mono italic">Hello !</h1>
                             <h1 className="text-4xl font-bold uppercase font-serif py-5"> Wellcome my Portfolio  </h1>
                             <h1 className="text-3xl font-bold  font-serif  "> I'm Obaydul_Kuasha  </h1>

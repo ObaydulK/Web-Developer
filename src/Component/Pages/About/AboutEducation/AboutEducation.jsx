@@ -22,7 +22,7 @@ const AboutEducation = () => {
                                 <p>------</p>
                                 <div className="font-bold">
                                     <p className="text-2xl">BSc in computer Science and Engineering</p>
-                                    <p className=""> Northern University,  Kawlar</p>
+                                    <p className=""> World University Of Bangaldesh, Uttara </p>
                                     <p className="text-2xl">0.00 Out of 4</p>
                                     <progress className="progress w-full" value="40" max="100"></progress>
                                 </div>

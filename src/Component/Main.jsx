@@ -10,7 +10,7 @@ const Main = () => {
         AOS.init();
     }, [])
     return (
-        <div>
+        <div className='container m-auto font-serif bg-base-300 '>
             <Header />
             <Outlet />
             <Footer />

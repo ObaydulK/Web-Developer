@@ -2,11 +2,12 @@
 import DevelopCarry from "./DevelopCarry/DevelopCarry";
 import ComforLanguage from "./ComforLanguage/ComforLanguage";
 import RecentProject from "./RecentProject/RecentProject";
-import CodeReviwe from "./CodeReviwe/CodeReviwe";
+// import CodeReviwe from "./CodeReviwe/CodeReviwe";
 import Title from "./Title/Titles";
 import OpenSourceProject from "./Open-Source-Project/OpenSourceProject";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import ProgressCountReport from "./ProgressCounterReport/ProgressCountReport";
 
 
 const Portfolio = () => {
@@ -22,7 +23,8 @@ const Portfolio = () => {
             <DevelopCarry />
             <OpenSourceProject/>
             <RecentProject />
-            <CodeReviwe />
+            {/* <CodeReviwe /> */}
+            <ProgressCountReport/>
         </div >
     );
 };

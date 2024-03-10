@@ -1,11 +1,13 @@
 
 import AboutEducation from "./AboutEducation/AboutEducation";
 import AboutBanner from "./AboutBanner/AboutBanner";
+import SpecialSkills from "./SpecialSkills/SpecialSkills";
 const About = () => {
     return (
         <div >
             <AboutBanner />
-            <AboutEducation />
+            <AboutEducation /> 
+            <SpecialSkills/>
         </div>
     );
 };

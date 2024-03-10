@@ -23,7 +23,7 @@ const AboutEducation = () => {
                                 <div className="font-bold">
                                     <p className="text-2xl">BSc in computer Science and Engineering</p>
                                     <p className=""> World University Of Bangaldesh, Uttara </p>
-                                    <p className="text-2xl">0.00 Out of 4</p>
+                                    {/* <p className="text-2xl">0.00 Out of 4</p> */}
                                     <progress className="progress w-full" value="40" max="100"></progress>
                                 </div>
                             </div>
@@ -33,7 +33,7 @@ const AboutEducation = () => {
                                 <div className="font-bold">
                                     <p className="text-2xl">Diploma in computer Science</p>
                                     <p>Shariatpur polytechnic institute, Shariatpur</p>
-                                    <p className="text-2xl"> 3.50 out of 4</p>
+                                    {/* <p className="text-2xl"> 3.50 out of 4</p> */}
                                     <progress className="progress w-full" value="100" max="100"></progress>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@ const AboutEducation = () => {
                                 <div className="font-bold">
                                     <p className="text-2xl">SSC in Electrical Engineering</p>
                                     <p>Idipur Pilot High School, Goshairhat</p>
-                                    <p className="text-2xl">4.86 out of 5</p>
+                                    {/* <p className="text-2xl">4.86 out of 5</p> */}
                                     <progress className="progress w-full" value="100" max="100"></progress>
                                 </div>
                             </div>

@@ -10,12 +10,12 @@ const Main = () => {
         AOS.init();
     }, [])
     return (
-        <div className='container m-auto font-serif bg-base-300 '>
+        <div className='container m-auto font-serif bg-[#343a40] bg-opacity-50 '>
             <Header />
             <Outlet />
             <Footer />
         </div>
-    );
+    ); 
 };
 
 export default Main;

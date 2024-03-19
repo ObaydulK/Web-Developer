@@ -4,8 +4,10 @@ const DevelopCarry = () => {
     return (
         <div>
             {/* love with web development start   */}
-           
+           <div className="mb-4 rounded-r-2xl rounded-l-3xl shadow-2xl">
             <Title  subHeading="'Lovely Coding Journey life'" />
+           </div>
+            
             <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
                 <li>
                     <div className="timeline-middle">

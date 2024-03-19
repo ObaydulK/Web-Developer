@@ -4,7 +4,7 @@ const Contact = () => {
 
     return (
         <div>
-            <div className=" py-8   bg-base-100 text-black  " data-aos="flip-left" data-aos-easing="ease-out-cubic"data-aos-duration="2000">
+            <div className=" shadow-2xl " data-aos="flip-left" data-aos-easing="ease-out-cubic"data-aos-duration="2000">
                 <div className=" grid grid-flow-row lg:grid-cols-2 items-center m-auto capitalize  ">
                     <div className="text-center ">
                         <h3 className="   text-emerald-500 font-bold">information</h3>

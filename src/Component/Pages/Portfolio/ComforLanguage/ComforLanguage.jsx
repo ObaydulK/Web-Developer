@@ -54,9 +54,11 @@ const ComforLanguage = () => {
     return (
         <div>
             {/* Comfortable for web base Language part start */}
-            <div className="py-10 bg-base-200 shadow-lg">
-                
-                <Title subHeading="'Comfortable Visit Language'"></Title>
+            <div className="  shadow-lg">
+                <div className="mb-4 rounded-r-2xl rounded-l-3xl shadow-2xl">
+                     <Title subHeading="'Comfortable Visit Language'"></Title>
+                </div>
+               
                 <Slider {...settings}>
                     <div className=" p-2 ">
                         <div className="bg-emerald-400 rounded-2xl  w-3/4">

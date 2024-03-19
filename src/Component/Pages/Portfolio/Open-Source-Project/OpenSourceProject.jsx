@@ -46,7 +46,7 @@ const OpenSourceProject = () => {
         <div>
             {/* My Recent Best Works part start */}
             <div >
-                <div className="my-8 rounded-r-2xl rounded-l-3xl shadow-2xl">
+                <div className=" mb-4 rounded-r-2xl rounded-l-3xl shadow-2xl">
                     <Title subHeading="'Open Source Project'" />
                 </div>
                 

@@ -10,7 +10,7 @@ const SpecialSkills = () => {
             <div className="grid lg:grid-flow-col lg:grid-cols-2 gap-10 items-center px-4">
                 <div className="">
                     <SectionStartTitle SubStartTitle="Special Skills" SectionMainTitle="My special Skill Field Here." />
-                    <Link className="btn btn-outline text-white hover:bg-white hover:text-black rounded-full"> Get Resume **</Link>
+                    <Link className="btn btn-outline text-black hover:bg-black hover:bg-opacity-25 hover:text-white rounded-full"> Get Resume **</Link>
                 </div>
                 <div className="grid grid-flow-row gap-6 text-white">
                     <div className="bg-[#343a40] px-4 py-6 rounded">

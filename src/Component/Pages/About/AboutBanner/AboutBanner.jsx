@@ -7,7 +7,7 @@ import Typewriter from 'react-ts-typewriter';
 const AboutBanner = () => {
     return (
         <div className=" container " >
-            <div className="  bg-base-200  " >
+            <div className="     " >
                 <div className="   grid grid-flow-row lg:grid-cols-2  " style={{ justifyItems: 'center' }}>
                     <div>
                         <div className="w-full">

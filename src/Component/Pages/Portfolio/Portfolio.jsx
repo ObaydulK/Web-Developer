@@ -14,17 +14,32 @@ const Portfolio = () => {
 
 
     return (
-        <div className="  " >
+        <div className="   " >
 
-            <div className="py-7 rounded-r-2xl rounded-l-3xl shadow-2xl bg-black bg-opacity-30 ">
+            <div className="my-8 rounded-r-2xl rounded-l-3xl shadow-2xl">
                 <Title subHeading="Portfolio showcase" Heading="I Fell in Love With Front End Developer (React)" />
             </div>
-            <ComforLanguage />
-            <DevelopCarry />
-            <OpenSourceProject/>
-            <RecentProject />
+
+            <div className="shadow-2xl mb-6 border-4 border-white rounded-tl-3xl rounded-br-3xl">
+                <ComforLanguage />
+            </div>
+
+            <div className="shadow-2xl mb-6 border-4 border-white rounded-tl-3xl rounded-br-3xl">
+                <DevelopCarry />
+            </div>
+
+            <div className="shadow-2xl mb-6 border-4 border-white rounded-tl-3xl rounded-br-3xl">
+                <OpenSourceProject />
+            </div>
+
+            <div className="shadow-2xl mb-6 border-4 border-white rounded-tl-3xl rounded-br-3xl">
+                <RecentProject />
+            </div>
             {/* <CodeReviwe /> */}
-            <ProgressCountReport/>
+
+            <div className="shadow-2xl mb-6 border-4 border-white rounded-tl-3xl rounded-br-3xl">
+                <ProgressCountReport />
+            </div>
         </div >
     );
 };

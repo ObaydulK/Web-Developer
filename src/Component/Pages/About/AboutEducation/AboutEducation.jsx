@@ -1,11 +1,18 @@
+import { useState } from "react";
 
 const AboutEducation = () => {
+    const [count, setcount] = useState(0);
+    
     return (
         <div>
             {/* About us part start */}
             <div className="bg-base-100 py-5 ">
+
+            <button onClick={( ) => setcount(count + 1)}>add me</button>
+
+
                 <div className="text-center">
-                    <h1 className="text-3xl text-emerald-500 font-bold">Introduction</h1>
+                    <h1 className="text-3xl text-emerald-500 font-bold">Introduction {count}</h1>
                     <h1 className="text-5xl py-5 font-bold">About Me</h1>
                     <p className=" px-3 text-justify ">Hello, I'm Obaydul_Kuasha, a Computer Science Engineering (BSE) student currently in the program. My academic journey involves delving into algorithms, data structures, and various programming languages. I'm passionate about software engineering, engaging in hands-on projects that enhance my problem-solving abilities. As a part of my curriculum, I'm immersed in diverse subjects like machine learning  and databases . This comprehensive education equips me with the skills needed to navigate the ever-evolving field of computer science. I am dedicated to staying current with industry trends, ensuring that I contribute effectively to the advancements in technology and innovation.</p>
                 </div>

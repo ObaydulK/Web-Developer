@@ -1,4 +1,4 @@
- import Slider from "react-slick";
+import Slider from "react-slick";
 import Title from "../Title/Titles";
 import RecentprojectTitle from "../Title/RecentprojectTitle";
 
@@ -47,31 +47,30 @@ const RecentProject = () => {
         <div>
             {/* My Recent Best Works part start */}
             <div>
-                <Title subHeading="'  Recent Works'" />
+                <div className="my-8 rounded-r-2xl rounded-l-3xl shadow-2xl">
+                   <Title subHeading="'  Recent Works'" /> 
+                </div>
+                
                 <div>
                     <Slider {...Works}>
 
-                        <div className="">
-                            <div className="px-2">
-                                <div className="card p-2  font-bold  bg-yellow-50 text-black shadow-xl">
-                                    <figure className=" ">
+                        <div>
+                            <div className="m-2 shadow-2xl rounded-2xl border-4 border-white  ">
+                                <div className=" p-2 h-[350px] font-bold  text-black ">
+                                    <figure className="  shadow-2xl   ">
                                         <img src="https://i.ibb.co/G7NR84Q/Screenshot-2024-01-23-at-21-20-06-New-Project-Vercel.png" alt=" " className="rounded-xl  h-44 border-4 w-full" />
                                     </figure>
                                     <div className="   ">
-                                        <div>
+                                        <div className="h-[150px] py-4">
                                             <RecentprojectTitle ProjectTitle="Car-Doctor" porjectDiscripiton="Use for Code: Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router,React Icone" />
                                         </div>
-                                        <div className=" text-center ">
-                                            <div className="collapse bg-base-200">
-                                                <input type="checkbox" className="peer" />
-                                                <div className="collapse-title text-center font-bold bg-primary w-full text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content text-2xl">
-                                                    Show project link
+                                        <div className="  text-center ">
+                                            <div className="grid grid-flow-row grid-cols-2 gap-2 border-2 border-white shadow-2xl py-2  rounded-xl ">
+                                                <div>
+                                                    <a href="https://car-doctor-sigma.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black ">Live</a><br />
                                                 </div>
-                                                <div className="collapse-content    bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                                                    <a href="https://github.com/ObaydulK/Car-Doctor" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black">Push Github</a><br />
-                                                    <a href="https://car-doctor-sigma.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black my-2">Push Live link</a><br />
-                                                    {/* <a href="" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black"> Push Sorch file</a> */}
-                                                    {/* <a href="http://" >  </a> */}
+                                                <div>
+                                                    <a href="https://github.com/ObaydulK/Car-Doctor" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black">Github</a><br />
                                                 </div>
                                             </div>
                                         </div>
@@ -80,27 +79,23 @@ const RecentProject = () => {
                             </div>
                         </div>
 
-                        <div className="">
-                            <div className="px-2">
-                                <div className="card p-2   font-bold  bg-yellow-50 text-black shadow-xl">
-                                    <figure className=" ">
+                        <div>
+                            <div className="m-2 shadow-2xl rounded-2xl border-4 border-white">
+                                <div className="p-2 h-[350px] font-bold  text-black ">
+                                    <figure className=" shadow-2xl  ">
                                         <img src="https://i.ibb.co/Pxt0JPf/Screenshot-2024-01-23-at-21-31-46-New-Project-Vercel.png" alt="Shoes" className="rounded-xl h-44 border-4 w-full" />
                                     </figure>
                                     <div className="   ">
-                                        <div>
-                                            <RecentprojectTitle ProjectTitle="Technology IT Solutions" porjectDiscripiton="Use for Code:  Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router, GitHub, vercel" />
+                                        <div className="h-[150px] py-4">
+                                            <RecentprojectTitle ProjectTitle=" IT Solutions" porjectDiscripiton="Use for Code:  Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router, GitHub, vercel" />
                                         </div>
-                                        <div className=" text-center ">
-                                            <div className="collapse bg-base-200">
-                                                <input type="checkbox" className="peer" />
-                                                <div className="collapse-title text-center font-bold bg-primary w-full text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content text-2xl">
-                                                    Show project link
+                                        <div className="  text-center ">
+                                            <div className="grid grid-flow-row grid-cols-2 gap-2 border-2 border-white shadow-2xl py-2  rounded-xl ">
+                                                <div>
+                                                    <a href="https://github.com/ObaydulK/Technology-It-Solutions" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black ">Live</a><br />
                                                 </div>
-                                                <div className="collapse-content    bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                                                    <a href="https://github.com/ObaydulK/Technology-It-Solutions" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black">Push Github</a><br />
-                                                    <a href="https://technology-it-solutions.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black my-2">Push Live link</a><br />
-                                                    {/* <a href="{blog}" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black"> Push Sorch file</a> */}
-                                                    {/* <a href="http://" > </a> */}
+                                                <div>
+                                                    <a href="https://technology-it-solutions.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black">Github</a><br />
                                                 </div>
                                             </div>
                                         </div>
@@ -109,27 +104,23 @@ const RecentProject = () => {
                             </div>
                         </div>
 
-                        <div className="">
-                            <div className="px-2">
-                                <div className="card p-2   font-bold  bg-yellow-50 text-black shadow-xl">
-                                    <figure className=" ">
+                        <div>
+                            <div className="m-2 shadow-2xl rounded-2xl border-4 border-white">
+                                <div className="p-2 h-[350px] font-bold  text-black ">
+                                    <figure className=" shadow-2xl  ">
                                         <img src="https://i.ibb.co/j350HQW/Screenshot-2024-01-23-at-21-40-35-Vite-React.png" alt="Shoes" className="rounded-xl h-44 border-4 w-full" />
                                     </figure>
                                     <div className="   ">
-                                        <div>
+                                        <div className="h-[150px] py-4">
                                             <RecentprojectTitle ProjectTitle="Portfolio React js" porjectDiscripiton="Use for Code:  Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router,React Icone, Github, Vercel" />
                                         </div>
-                                        <div className=" text-center ">
-                                            <div className="collapse bg-base-200">
-                                                <input type="checkbox" className="peer" />
-                                                <div className="collapse-title text-center font-bold bg-primary w-full text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content text-2xl">
-                                                    Show project link
+                                        <div className="  text-center ">
+                                            <div className="grid grid-flow-row grid-cols-2 gap-2 border-2 border-white shadow-2xl py-2  rounded-xl ">
+                                                <div>
+                                                    <a href="https://github.com/ObaydulK/professional-web-developer" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black ">Live</a><br />
                                                 </div>
-                                                <div className="collapse-content    bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                                                    <a href="https://github.com/ObaydulK/professional-web-developer " target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black">Push Github</a><br />
-                                                    <a href="https://professional-web-developer.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black my-2">Push Live link</a><br />
-                                                    {/* <a href="" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black"> Push Sorch file</a> */}
-                                                    {/* <a href="http://" ></a> */}
+                                                <div>
+                                                    <a href="https://professional-web-developer.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black">Github</a><br />
                                                 </div>
                                             </div>
                                         </div>
@@ -138,56 +129,49 @@ const RecentProject = () => {
                             </div>
                         </div>
 
-                        <div className="">
-                            <div className="px-2">
-                                <div className="card p-2   font-bold  bg-yellow-50 text-black shadow-xl">
-                                    <figure className=" ">
+                        <div>
+                            <div className="m-2 shadow-2xl rounded-2xl border-4 border-white">
+                                <div className="p-2 h-[350px] font-bold  text-black ">
+                                    <figure className=" shadow-2xl  ">
                                         <img src="https://i.ibb.co/DDs8PD2/Screenshot-2024-01-23-at-21-48-22-New-Project-Vercel.png" alt="Shoes" className="rounded-xl h-44 border-4 w-full" />
                                     </figure>
                                     <div className="   ">
-                                        <div>
-                                            <RecentprojectTitle ProjectTitle="Home Press Real Estate" porjectDiscripiton="Use for Code:  Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router,React Icone,React-Slick Github, Vercel" />
+                                        <div className="h-[150px] py-4">
+                                            <RecentprojectTitle ProjectTitle="Home  Real Estate" porjectDiscripiton="Use for Code:  Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router,React Icone,React-Slick Github, Vercel" />
                                         </div>
-                                        <div className=" text-center ">
-                                            <div className="collapse bg-base-200">
-                                                <input type="checkbox" className="peer" />
-                                                <div className="collapse-title text-center font-bold bg-primary w-full text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content text-2xl">
-                                                    Show project link
+                                        <div className="  text-center ">
+                                            <div className="grid grid-flow-row grid-cols-2 gap-2 border-2 border-white shadow-2xl py-2  rounded-xl ">
+                                                <div>
+                                                    <a href="https://github.com/ObaydulK/HomePress-Real-Estate" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black ">Live</a><br />
                                                 </div>
-                                                <div className="collapse-content    bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                                                    <a href="https://github.com/ObaydulK/HomePress-Real-Estate" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black">Push Github</a><br />
-                                                    <a href=" https://home-press-real-estate-cfcb.vercel.app/  " target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black my-2">Push Live link</a><br />
-                                                    {/* <a href="" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black"> Push Sorch file</a> */}
-                                                    {/* <a href="http://" ></a> */}
+                                                <div>
+                                                    <a href="https://home-press-real-estate-cfcb.vercel.app/  " target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black">Github</a><br />
                                                 </div>
                                             </div>
                                         </div>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="">
-                            <div className="px-2">
-                                <div className="card p-2   font-bold  bg-yellow-50 text-black shadow-xl">
+                        <div>
+                            <div className="m-2 shadow-2xl rounded-2xl border-4 border-white">
+                                <div className="p-2 h-[350px] font-bold  text-black ">
                                     <figure className=" ">
                                         <img src="https://i.ibb.co/fSMgmpv/Screenshot-2024-01-23-at-21-52-52-Dashboard.png" alt="Shoes" className="rounded-xl h-44 border-4 w-full" />
                                     </figure>
-                                    <div className="   ">
-                                        <div>
+                                    <div className=" shadow-2xl    ">
+                                        <div className="h-[150px] py-4">
                                             <RecentprojectTitle ProjectTitle="Resturent" porjectDiscripiton="Use for Code: Html,css,JavaScript,React, Tailwind css,Daysiui,React-Router,React Icone,React-Slick Github, Vercel" />
                                         </div>
-                                        <div className=" text-center ">
-                                            <div className="collapse bg-base-200">
-                                                <input type="checkbox" className="peer" />
-                                                <div className="collapse-title text-center font-bold bg-primary w-full text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content text-2xl">
-                                                    Show project link
+                                        <div className="  text-center ">
+                                            <div className="grid grid-flow-row grid-cols-2 gap-2 border-2 border-white shadow-2xl py-2  rounded-xl ">
+                                                <div>
+                                                    <a href="https://github.com/programming-hero-web-course-4/b8a9-event-management-ObaydulK" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black ">Live</a><br />
                                                 </div>
-                                                <div className="collapse-content    bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                                                    <a href="https://github.com/programming-hero-web-course-4/b8a9-event-management-ObaydulK" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black">Push Github</a><br />
-                                                    <a href="https://b8a9-event-management-obaydul-k.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black my-2">Push Live link</a><br />
-                                                    {/* <a href="" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black"> Push Sorch file</a> */}
-                                                    {/* <a href="http://" ></a> */}
+                                                <div>
+                                                    <a href="https://b8a9-event-management-obaydul-k.vercel.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline text-black">Github</a><br />
                                                 </div>
                                             </div>
                                         </div>

@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import HireNow from "./HireUs/HireNow";
 
 const Contact = () => {
 
     return (
         <div>
-            <div className=" shadow-2xl " data-aos="flip-left" data-aos-easing="ease-out-cubic"data-aos-duration="2000">
+            <div className=" shadow-2xl " data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <div className=" grid grid-flow-row lg:grid-cols-2 items-center m-auto capitalize  ">
                     <div className="text-center ">
                         <h3 className="   text-emerald-500 font-bold">information</h3>
@@ -17,7 +18,7 @@ const Contact = () => {
 
                     </div>
                     <div className="card shrink-0     ">
-                        <form className="card-body ">
+                        {/* <form className="card-body ">
                             <div className="from-content shadow-2xl bg-base-100">
                                 <input type="text" placeholder="Your Name *" className="input input-bordered w-full" required />
                             </div>
@@ -30,8 +31,8 @@ const Contact = () => {
                             <div className="form-control mt-6 items-start">
                                 <Link to='/blog' className="btn btn-outline font-bold text-white"> Send Massage </Link>
                             </div>
-                        </form>
-
+                        </form> */}
+                        <HireNow />
                     </div>
                 </div>
             </div>

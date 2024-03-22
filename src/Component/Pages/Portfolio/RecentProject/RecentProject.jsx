@@ -56,7 +56,7 @@ const RecentProject = () => {
 
                         <div>
                             <div className="m-2 shadow-2xl rounded-2xl border-4 border-white  ">
-                                <div className=" p-2 h-[350px] font-bold  text-black ">
+                                <div className=" p-2   font-bold  text-black ">
                                     <figure className="  shadow-2xl   ">
                                         <img src="https://i.ibb.co/G7NR84Q/Screenshot-2024-01-23-at-21-20-06-New-Project-Vercel.png" alt=" " className="rounded-xl  h-44 border-4 w-full" />
                                     </figure>
@@ -81,7 +81,7 @@ const RecentProject = () => {
 
                         <div>
                             <div className="m-2 shadow-2xl rounded-2xl border-4 border-white">
-                                <div className="p-2 h-[350px] font-bold  text-black ">
+                                <div className="p-2   font-bold  text-black ">
                                     <figure className=" shadow-2xl  ">
                                         <img src="https://i.ibb.co/Pxt0JPf/Screenshot-2024-01-23-at-21-31-46-New-Project-Vercel.png" alt="Shoes" className="rounded-xl h-44 border-4 w-full" />
                                     </figure>
@@ -106,7 +106,7 @@ const RecentProject = () => {
 
                         <div>
                             <div className="m-2 shadow-2xl rounded-2xl border-4 border-white">
-                                <div className="p-2 h-[350px] font-bold  text-black ">
+                                <div className="p-2  font-bold  text-black ">
                                     <figure className=" shadow-2xl  ">
                                         <img src="https://i.ibb.co/j350HQW/Screenshot-2024-01-23-at-21-40-35-Vite-React.png" alt="Shoes" className="rounded-xl h-44 border-4 w-full" />
                                     </figure>
@@ -131,7 +131,7 @@ const RecentProject = () => {
 
                         <div>
                             <div className="m-2 shadow-2xl rounded-2xl border-4 border-white">
-                                <div className="p-2 h-[350px] font-bold  text-black ">
+                                <div className="p-2   font-bold  text-black ">
                                     <figure className=" shadow-2xl  ">
                                         <img src="https://i.ibb.co/DDs8PD2/Screenshot-2024-01-23-at-21-48-22-New-Project-Vercel.png" alt="Shoes" className="rounded-xl h-44 border-4 w-full" />
                                     </figure>
@@ -157,7 +157,7 @@ const RecentProject = () => {
 
                         <div>
                             <div className="m-2 shadow-2xl rounded-2xl border-4 border-white">
-                                <div className="p-2 h-[350px] font-bold  text-black ">
+                                <div className="p-2   font-bold  text-black ">
                                     <figure className=" ">
                                         <img src="https://i.ibb.co/fSMgmpv/Screenshot-2024-01-23-at-21-52-52-Dashboard.png" alt="Shoes" className="rounded-xl h-44 border-4 w-full" />
                                     </figure>

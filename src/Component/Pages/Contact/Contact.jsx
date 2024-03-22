@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+ 
 import HireNow from "./HireUs/HireNow";
 
 const Contact = () => {
@@ -17,21 +17,8 @@ const Contact = () => {
                         <p><span className="">Phone :</span> +8801518792691</p>
 
                     </div>
-                    <div className="card shrink-0     ">
-                        {/* <form className="card-body ">
-                            <div className="from-content shadow-2xl bg-base-100">
-                                <input type="text" placeholder="Your Name *" className="input input-bordered w-full" required />
-                            </div>
-                            <div className="form-control shadow-2xl bg-base-100">
-                                <input type="email" placeholder="Your email *" className="input input-bordered " required />
-                            </div>
-                            <div>
-                                <input type="text" name="text" placeholder="Your Message *" id="" className="w-full h-36 px-5 border-2 rounded-xl" />
-                            </div>
-                            <div className="form-control mt-6 items-start">
-                                <Link to='/blog' className="btn btn-outline font-bold text-white"> Send Massage </Link>
-                            </div>
-                        </form> */}
+                    <div className=" p-4    ">
+                    
                         <HireNow />
                     </div>
                 </div>

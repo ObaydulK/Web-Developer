@@ -2,7 +2,7 @@
 import AboutEducation from "./AboutEducation/AboutEducation";
 import AboutBanner from "./AboutBanner/AboutBanner";
 import SpecialSkills from "./SpecialSkills/SpecialSkills";
-const About = () => {
+ const About = () => {
     return (
         <div className=" grid grid-flow-row gap-y-6  pb-8 ">
 
@@ -17,6 +17,7 @@ const About = () => {
             <div className=" shadow-2xl  rounded-xl " >
                 <SpecialSkills />
             </div>
+ 
         </div>
     );
 };

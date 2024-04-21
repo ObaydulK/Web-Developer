@@ -5,16 +5,6 @@ const Blog = () => {
 
     const [blogs, setBlogs] = useState([]);
 
-    // useEffect(() => {
-    //     const getBlog = async () => {
-    //         const res = await fetch('blog.json');
-    //         setBlogs(await res.json());
-
-    //     }
-    //     getBlog();
-    // }, [])
-
-
     useEffect(() => {
         const getBlog = async () => {
             const res = await fetch('blog.json');

@@ -11,26 +11,28 @@ const SpecialSkills = () => {
                 <div className="">
                     <SectionStartTitle SubStartTitle="Special Skills" SectionMainTitle="My special Skill Field Here." />
                     <Link className="btn btn-outline text-black hover:bg-black hover:bg-opacity-25 hover:text-white rounded-full" to="/blog" > Get Resume **</Link>
+                    {/* <Link className="btn btn-outline text-black hover:bg-black hover:bg-opacity-25 hover:text-white rounded-full" to="www.google.com" > Get Resume **</Link> */}
+                     
                 </div>
                 <div className="grid grid-flow-row gap-6 text-white">
                     <div className="bg-[#343a40] px-4 py-6 rounded">
                         <div className="text-base font-medium dark:text-white font-serif capitalize py-2" >communication</div>
-                        <Progress className="bg-white text-black" progress={95} textLabel=" Communication   " size="xxl" labelProgress labelText />
+                        <Progress className="bg-white text-black"  textLabel=" Communication Expert  " size="xxl" labelProgress labelText />
                     </div>
                     <div className="bg-[#343a40] px-4 py-6 rounded">
                         <div className="flex justify-between">
                             <div className="text-base font-medium dark:text-white font-serif capitalize py-2" >Leadership</div>
                         </div>
 
-                        <Progress className="bg-white text-black" progress={90} textLabel="Teamwork   " size="xxl" labelProgress labelText />
+                        <Progress className="bg-white text-black" textLabel="Teamwork Expert  " size="xxl" labelProgress labelText />
                     </div>
                     <div className="bg-[#343a40] px-4 py-6 rounded">
                         <div className="text-base font-medium dark:text-white font-serif capitalize py-2" >Teamwork</div>
-                        <Progress className="bg-white text-black" progress={80} textLabel="Flexibility   " size="xxl" labelProgress labelText />
+                        <Progress className="bg-white text-black"  textLabel="Flexibility Expert   " size="xxl" labelProgress labelText />
                     </div>
                     <div className="bg-[#343a40] px-4 py-6 rounded">
                         <div className="text-base font-medium dark:text-white font-serif capitalize py-2" >Flexibility</div>
-                        <Progress className="bg-white text-black" progress={95} textLabel="Leadership   " size="xxl" labelProgress labelText />
+                        <Progress className="bg-white text-black"    textLabel="Leadership Intermediate  " size="xxl" labelProgress labelText />
                     </div>
 
                 </div>

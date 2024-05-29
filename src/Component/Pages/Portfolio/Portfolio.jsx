@@ -30,9 +30,9 @@ const Portfolio = () => {
                 <PhotoGallary />
             </div>
 
-            <div className="shadow-2xl mb-6 border-4 border-white rounded-tl-3xl rounded-br-3xl">
+            {/* <div className="shadow-2xl mb-6 border-4 border-white rounded-tl-3xl rounded-br-3xl">
                 <RecentProject />
-            </div>
+            </div> */}
 
             <div className="shadow-2xl mb-6 border-4 border-white rounded-tl-3xl rounded-br-3xl">
                 <OpenSourceProject />

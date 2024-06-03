@@ -33,8 +33,8 @@ const PhotoGallary = () => {
                             <div className="flex-row text-center ">
                                 <h1 className="text-gray-50 font-bold text-2xl">Desktop.</h1>
                                 <div className='flex gap-10'>
-                                    <Link className="btn btn-outline text-gray-200 font-medium text-sm">Github</Link>
-                                    <Link className="btn btn-outline text-gray-200 font-medium text-sm">Live</Link> <br />
+                                    <Link to className=" Gitbtn ">Github</Link>
+                                    <Link className="Livebtn ">Live</Link> <br />
                                 </div>
                                 <small className="text-xs font-light text-gray-300">Photo by Sébastien Goldberg on Unsplash </small>
                             </div>
